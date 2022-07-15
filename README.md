@@ -16,6 +16,8 @@ def calc_cycle_loss(real_image, cycled_image):
 ## Example
 Here you can see some samples from the model and compare the results to their ground truth.  
 > NOTE: Please consider that in this dataset, our target is to colorize the face, the particular part of the subject's skin, hair, and facial hair, not their background in the picture. We can expect good colorization in a different area if we prepare more complete datasets for other purposes.  
+
+
 ![alt text](https://github.com/KoroshRH/Image-Colorizer/blob/main/examples/Screenshot%202022-07-15%20150307.png)
 ![alt text](https://github.com/KoroshRH/Image-Colorizer/blob/main/examples/Screenshot%202022-07-15%20150346.png)
 ![alt text](https://github.com/KoroshRH/Image-Colorizer/blob/main/examples/Screenshot%202022-07-15%20150410.png)
