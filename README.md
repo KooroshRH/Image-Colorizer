@@ -1,6 +1,7 @@
 # Image Colorizer
 In this project, we used CycleGAN architecture and CelebA dataset to train a model for translating black and white images into colorized images.  
-You can run the notebook in your colab environment and use different datasets as your source and destination domains.
+You can run the notebook in your colab environment and use different datasets as your source and destination domains.  
+> NOTE: Change runtime mode to **GPU** to get better performance while training the model.
 
 ## Cycle loss function
 This loss function is the main idea of CycleGAN. In CycleGAN, we want to translate a domain's attributes to another domain and keep the main characteristics from the source domain.  
